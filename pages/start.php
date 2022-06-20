@@ -9,13 +9,11 @@
 
 <header>
 	<div class="header_menu">
-		<div class="logo"> 
-			<img src="bg1.png" alt="."> 
+	
 		</div>
 		<div class="menu_list">
 			<ul>
-				<li><a href="home.php" >test</a></li>
-				<li><a href="game.php">Game</a> </li>
+				
 		
 				
 				
@@ -32,7 +30,8 @@
 		</a></button>
 
 		<button><a href="#">
-			...
+        
+😀
 		</a></button>
 	</div>
 </header>
