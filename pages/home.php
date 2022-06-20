@@ -1,9 +1,14 @@
 <?php
+if(isset($_POST['fout'])){
+    
+}elseif(isset($_POST['goed'])){
+    
+}
 $body = "
 
      <div>
           <div>
-              <p>Socenden: </p>
+              <p>Socenden:".time()."</p>
               <p>Score: </p>
           </div>
          <div>"; 
@@ -16,8 +21,8 @@ $body = "
          <div>
          
          <form action='' method='POST'>
-            <button>Goed</button>
-            <button>Fout</button>
+            <button type='submit' name='goed'>Goed</button>
+            <button type='submit' name='fout'>Fout</button>
          </form>
          
          </div>
