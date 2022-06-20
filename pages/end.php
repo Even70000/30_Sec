@@ -24,8 +24,8 @@
     </div>
 
     <div class="header_content">
-        <h2>Helaas</h2>
-        <h1>Einde spel</h1>
+        <h2>Helaas.</h2>
+        <h1>Einde spel.</h1>
         <button><a href="#">
             restart
         </a></button>
