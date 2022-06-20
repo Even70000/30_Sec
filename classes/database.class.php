@@ -3,7 +3,7 @@ class Database{
     private $local = 'localhost';
     private $user  = 'root';
     private $pass  = '';
-    private $dbname = 'aser_picture';
+    private $dbname = 'db_30seconds';
     private $conn;
 
     public function getConnection(){

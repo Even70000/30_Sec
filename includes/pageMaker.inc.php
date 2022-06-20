@@ -2,7 +2,8 @@
 session_start(); 
 class PageMaker {
     public function __construct() {
-
+       
+        include('includes/header.inc.php');
         
 
     }
@@ -12,7 +13,10 @@ class PageMaker {
         $html = "<!DOCTYPE html>";
         $html .= "<html lg='en'>";
 
- 
+        $html .= "<head>";
+            $header = new Headers();
+            $html .= $header->getHeader();
+        $html .= "</head>";
         
 
             $html .= "<body>";
