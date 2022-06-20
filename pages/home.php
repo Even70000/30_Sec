@@ -1,19 +1,28 @@
 <?php
+if(isset($_POST['fout'])){
+    
+}elseif(isset($_POST['goed'])){
+    
+}
 $body = "
 
      <div>
           <div>
+              <p>Socenden:".time()."</p>
               <p>Score: </p>
           </div>
-         <div>
+         <div>"; 
+   $vragen = new Vragen();
+   foreach($vragen->getVragen() as $vraag){
+      $body .= $vraag['name'] . '<br />';
+   }  
          
-         
-         </div>
+   $body.= " </div>
          <div>
          
          <form action='' method='POST'>
-         <button>Goed</button>
-         <button>Fout</button>
+            <button type='submit' name='goed'>Goed</button>
+            <button type='submit' name='fout'>Fout</button>
          </form>
          
          </div>
@@ -24,4 +33,3 @@ $body = "
 
 ";
 
-echo $body;
