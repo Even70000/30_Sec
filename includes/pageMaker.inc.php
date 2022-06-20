@@ -4,7 +4,9 @@ class PageMaker {
     public function __construct() {
        
         include('includes/header.inc.php');
-        
+        include(DATABASE);
+        include(VRAGEN);
+        include(SCORE);
 
     }
    
