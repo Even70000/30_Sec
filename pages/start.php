@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>30 SECS</title>
-	<link rel="stylesheet" type="text/css" href="../css/start.css">
-	<link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
-</head>
-<body>
+<?php 
+
+$body = '
 
 <header>
 	<div class="header_menu">
@@ -14,12 +9,9 @@
 		</div>
 		<div class="menu_list">
 			<ul>
-				<li><a href="home.php" >test</a></li>
-				<li><a href="game.php">Game</a> </li>
-		
-				
-				
-				
+
+				<li><a href="index.php?page='.HOME.'">Game</a> </li>
+			
 			</ul>
 		</div>
 	</div>
@@ -35,4 +27,5 @@
 			...
 		</a></button>
 	</div>
-</header>
+</header>';
+

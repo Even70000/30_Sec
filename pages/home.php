@@ -3,17 +3,21 @@ $body = "
 
      <div>
           <div>
+              <p>Socenden: </p>
               <p>Score: </p>
           </div>
-         <div>
+         <div>"; 
+   $vragen = new Vragen();
+   foreach($vragen->getVragen() as $vraag){
+      $body .= $vraag['name'] . '<br />';
+   }  
          
-         
-         </div>
+   $body.= " </div>
          <div>
          
          <form action='' method='POST'>
-         <button>Goed</button>
-         <button>Fout</button>
+            <button>Goed</button>
+            <button>Fout</button>
          </form>
          
          </div>
@@ -24,4 +28,3 @@ $body = "
 
 ";
 
-echo $body;
