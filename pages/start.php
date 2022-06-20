@@ -9,11 +9,12 @@
 
 <header>
 	<div class="header_menu">
-	
+		<div class="logo"> 
+			<img src="../images/bg2.png" alt="."> 
 		</div>
 		<div class="menu_list">
 			<ul>
-				
+			
 		
 				
 				
@@ -30,7 +31,7 @@
 		</a></button>
 
 		<button><a href="#">
-        
+	
 😀
 		</a></button>
 	</div>
